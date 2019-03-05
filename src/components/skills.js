@@ -20,13 +20,13 @@ const SkillsListItem = styled.li`
 `;
 const SKILLS_BANK = [
   'JavaScript (ES6)',
-  'React',
-  'Redux',
+  'React + Redux',
   'Ruby',
   'Ruby on Rails',
-  'Specs: Mocha & Jest',
   'ExpressJS',
-  'Webpack'
+  'mySQL & mongoDB',
+  'Mocha & Jest',
+  'Webpack',
 ];
 
 const Skills = ({ siteTitle }) => (

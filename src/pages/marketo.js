@@ -33,13 +33,12 @@ const MarketoPage = () => (
       </ul>
       <h3>Projects I did</h3>
       <h4>Livefeed</h4>
-        <ul>
-          <li>...</li>
-        </ul>
+        <span>
+          Mainly worked on the the frontend. Created a tab where users could create tasks (email, call, inmail) and take actions on it.
+          Collaborated with UX designer to help with designing the look and feel.
+        </span>
       <h4>Outlook Email Reply Tracking</h4>
-        <ul>
-          <li>...</li>
-        </ul>
+        <span>Worked with Microsoft's Outlook REST and SOAP APIs to monitor a user's inbox and figure out </span>
       <h4>Marketo Unsubscribes Check</h4>
     </ExperienceLayout>
 )
