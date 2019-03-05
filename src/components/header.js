@@ -2,14 +2,20 @@ import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 import styled from 'styled-components';
-
+// import Toggle from 'react-toggle'
+// import "react-toggle/style.css"
+{/* <Toggle
+defaultChecked={true}
+icons={false}
+// onChange={this.handleBaconChange}
+/> */}
 const HeaderWrapper = styled.div`
 
 `;
 
 const HeaderTitle = styled.h1`
 
-;`
+`;
 
 const HeaderDescription = styled.p`
   line-height: 1.5;
@@ -22,7 +28,8 @@ I love learning and coding but also gymming, music festivals, and game of throne
 
 const Header = ({ siteTitle }) => (
   <HeaderWrapper>
-    <HeaderTitle>HEY, I'M CHRISTIAN</HeaderTitle>
+
+      <HeaderTitle>HEY, I'M CHRISTIAN</HeaderTitle>
     <HeaderDescription>{HeaderDescriptionText}</HeaderDescription>
   </HeaderWrapper>
 )

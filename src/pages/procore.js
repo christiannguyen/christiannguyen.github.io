@@ -23,7 +23,7 @@ const ProcorePage = () => (
       </p>
       <p>
         I had two major & fun assignments. &nbsp;
-        <a href="https://talent.procore.com/candidates/portal/1UoDweVUIuTF">Demo Link</a>
+        <a href="https://talent.procore.com/candidates/portal/1UoDweVUIuTF" target="_blank">Demo Link</a>
         <ol>
           <li>
             An intern project with a group of 4. We basically had to build from scratch a full-stack
