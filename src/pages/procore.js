@@ -22,14 +22,14 @@ const ProcorePage = () => (
         </ul>
       </p>
       <p>
-        I had two major & fun assignments.
+        I had two major & fun assignments. &nbsp;
+        <a href="https://talent.procore.com/candidates/portal/1UoDweVUIuTF">Demo Link</a>
         <ol>
           <li>
             An intern project with a group of 4. We basically had to build from scratch a full-stack
             application for the recruiting team. It was a page where an interviewee coming onto an on-site interview would be able to see things such as
             their interview schedule, information about the company, parking, and etc. The recruiter would be able to add whatever information they wanted.
             I mainly worked on the frontend (in React).
-            <a href="https://talent.procore.com/candidates/portal/1UoDweVUIuTF">Demo Link</a>
           </li>
           <li>
             Worked with one another intern to create and display a dashboard that showed the user all of the important items they needed in several cards.
