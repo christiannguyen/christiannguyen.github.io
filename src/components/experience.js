@@ -17,10 +17,6 @@ const ExperienceUnorderedList = styled.ul`
 
 const ExperienceListItem = styled.li`
   padding-bottom: 5px;
-
-  a {
-    text-decoration: none;
-  }
 `;
 
 const EXPERIENCE_BANK = [

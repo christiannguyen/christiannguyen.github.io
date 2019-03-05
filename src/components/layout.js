@@ -19,6 +19,10 @@ const GlobalStyle = createGlobalStyle`
     font-size: 16px;
     margin-top: 30px;
   }
+
+  a {
+    text-decoration: none;
+  }
 `
 
 const LayoutContainer = styled.div`

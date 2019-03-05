@@ -21,10 +21,6 @@ const OTHER_LINKS = [
 
 const ListItems = styled.li`
   padding: 3px 0;
-
-  a {
-    text-decoration: none;
-  }
 `;
 
 const UnorderedList = styled.ul`

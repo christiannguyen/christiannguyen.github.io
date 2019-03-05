@@ -10,7 +10,6 @@ const ExperienceLayoutWrapper = styled.div`
 
 const HomeLink = styled.p`
   a {
-    text-decoration: none;
     text-transform: uppercase;
   }
 `;
