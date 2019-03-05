@@ -40,6 +40,11 @@ const MarketoPage = () => (
       <h4>Outlook Email Reply Tracking</h4>
         <span>Worked with Microsoft's Outlook REST and SOAP APIs to monitor a user's inbox and figure out </span>
       <h4>Marketo Unsubscribes Check</h4>
+        <span>
+          Had to use Marketo's APIs to check against their database. This would check to see if a particular email was unsubscribed or not
+          from emails. If so, we would have to render the correct error messaging on the frontend. We'd have this check everywhere in an app where
+          an email was being created.
+        </span>
     </ExperienceLayout>
 )
 

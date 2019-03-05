@@ -12,7 +12,6 @@ const SkillsTitle = styled.h2`
 ;`
 
 const SkillsUnorderedList = styled.ul`
-  /* list-style-type: ; */
 `;
 
 const SkillsListItem = styled.li`
@@ -23,7 +22,8 @@ const SKILLS_BANK = [
   'React + Redux',
   'Ruby',
   'Ruby on Rails',
-  'ExpressJS',
+  'NodeJS + ExpressJS',
+  'HTML + CSS',
   'mySQL & mongoDB',
   'Mocha & Jest',
   'Webpack',
