@@ -4,17 +4,24 @@ import { Link } from "gatsby"
 import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
+import Header from "../components/header";
+import Skills from "../components/skills";
+import Experience from "../components/experience";
+import styled from "styled-components";
+
+const RandomArticlesLink = styled.h2`
+  a {
+    text-decoration: none;
+  }
+`
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
-    </div>
-    <Link to="/page-2/">Go to page 2</Link>
+    <Header />
+    <Skills />
+    <Experience />
+    <RandomArticlesLink><Link to="random-articles">List of Random Articles</Link></RandomArticlesLink>
   </Layout>
 )
 
