@@ -38,7 +38,10 @@ const MarketoPage = () => (
           Collaborated with UX designer to help with designing the look and feel.
         </span>
       <h4>Outlook Email Reply Tracking</h4>
-        <span>Worked with Microsoft's Outlook REST and SOAP APIs to monitor a user's inbox and figure out </span>
+        <span>
+          Worked with Microsoft's Outlook REST and SOAP APIs to monitor a user's inbox and help identify which new emails were
+          replies. This would then notify the user that their specific email has been replied to.
+        </span>
       <h4>Marketo Unsubscribes Check</h4>
         <span>
           Had to use Marketo's APIs to check against their database. This would check to see if a particular email was unsubscribed or not

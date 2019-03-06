@@ -26,6 +26,7 @@ const TECH_STACK = [
   'redux',
   'express',
   'mySQL',
+  'styled components',
 ]
 
 const DabblePage = () => (
