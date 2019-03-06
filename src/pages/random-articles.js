@@ -21,13 +21,17 @@ const OTHER_LINKS = [
 
 const ListItems = styled.li`
   padding: 3px 0;
+
+  a {
+    word-break: break-word;
+  }
 `;
 
 const UnorderedList = styled.ul`
   margin: 0;
 `;
 
-const RandomArticles = ({ children }) => (
+const RandomArticles = () => (
   <ExperienceLayout header="Random Tech Links" subtitle="List of random tech articles/blogs/etc I enjoyed">
     <h3>Frontend</h3>
     <UnorderedList>

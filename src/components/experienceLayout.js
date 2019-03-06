@@ -5,7 +5,7 @@ import { Link } from "gatsby"
 import Layout from './layout';
 
 const ExperienceLayoutWrapper = styled.div`
-
+  margin-bottom: 40px;
 `;
 
 const HomeLink = styled.p`
@@ -25,10 +25,13 @@ const ExperienceLayoutSubtitle = styled.span`
 
 const ExperienceLayout = ({ children, header, subtitle }) => (
   <Layout>
+    <ExperienceLayoutWrapper>
+
     <HomeLink><Link to='/'>Home</Link></HomeLink>
     <ExperienceLayoutHeader>{header}</ExperienceLayoutHeader>
     <ExperienceLayoutSubtitle>{subtitle}</ExperienceLayoutSubtitle>
     {children}
+    </ExperienceLayoutWrapper>
   </Layout>
 )
 

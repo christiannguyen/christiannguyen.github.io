@@ -21,25 +21,16 @@ const HeaderDescription = styled.p`
   line-height: 1.5;
 `;
 
-const HeaderDescriptionText = `I'm currently a full stack software engineer currently living in San Francisco.
-I mainly enjoy writing code in the frontend (JavasSript & React) but also knowledgeable in the backend (Ruby on Rails & ExpressJS).
-I love learning and coding but also gymming, music festivals, and game of thrones.
-`
-
-const Header = ({ siteTitle }) => (
+const Header = () => (
   <HeaderWrapper>
 
       <HeaderTitle>HEY, I'M CHRISTIAN</HeaderTitle>
-    <HeaderDescription>{HeaderDescriptionText}</HeaderDescription>
+    <HeaderDescription>
+      I'm currently a full stack software engineer at <strong>Marketo, an Adobe Company</strong> and residing in San Francisco.
+      I mainly enjoy writing code in the frontend (JavasSript & React) but also knowledgeable in the backend (Ruby on Rails & ExpressJS).
+      I love learning and coding but also gymming, music festivals, and game of thrones.
+    </HeaderDescription>
   </HeaderWrapper>
 )
-
-Header.propTypes = {
-  siteTitle: PropTypes.string,
-}
-
-Header.defaultProps = {
-  siteTitle: ``,
-}
 
 export default Header;

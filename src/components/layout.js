@@ -9,9 +9,6 @@ import React from "react"
 import PropTypes from "prop-types"
 import styled, { createGlobalStyle } from 'styled-components';
 
-import Header from "./header"
-
-
 const GlobalStyle = createGlobalStyle`
   body {
     margin: 0;
@@ -31,6 +28,14 @@ const LayoutContainer = styled.div`
   width: 35%;
   margin: auto;
   flex-direction: column;
+
+  @media (max-width: 800px) {
+    width: 50%;
+  }
+
+  @media (max-width: 450px) {
+    width: 80%;
+  }
 `;
 
 const Layout = ({ children }) => (
