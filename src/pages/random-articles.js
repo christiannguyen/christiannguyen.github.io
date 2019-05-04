@@ -8,6 +8,7 @@ const FRONTEND_LINKS = [
   "https://reactpatterns.com/",
   "https://spin.atomicobject.com/2018/04/02/redux-rerendering/",
   "https://cdb.reacttraining.com/react-inline-functions-and-performance-bdff784f5578",
+  'https://medium.freecodecamp.org/scaling-your-redux-app-with-ducks-6115955638be',
 ]
 
 const BACKEND_LINKS = [

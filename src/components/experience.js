@@ -1,23 +1,21 @@
 import PropTypes from "prop-types"
 import React from "react"
-import styled from 'styled-components';
+import styled from "styled-components"
 import { Link } from "gatsby"
 
-const ExperienceWrapper = styled.div`
-
-`;
+const ExperienceWrapper = styled.div``
 
 const ExperienceTitle = styled.h2`
   font-weight: 400;
-;`
+`
 
 const ExperienceUnorderedList = styled.ul`
   /* list-style-type: ; */
-`;
+`
 
 const ExperienceListItem = styled.li`
   padding-bottom: 10px;
-`;
+`
 
 const TagItem = styled.span`
   border: 1px solid #cfdae6;
@@ -34,23 +32,25 @@ const TagItem = styled.span`
 
 const EXPERIENCE_BANK = [
   {
-    link: 'marketo',
-    label: 'Marketo, an Adobe Company',
-    type: 'work',
+    link: "marketo",
+    label: "Marketo, an Adobe Company",
+    type: "work",
   },
   {
-    link: 'procore',
-    label: 'Procore Technologies',
-    type: 'work',
+    link: "procore",
+    label: "Procore Technologies",
+    type: "work",
   },
   {
-    link: 'dabble',
-    label: 'Dabble',
-    type: 'side project',
+    link: "jabber",
+    label: "Jabber",
+    type: "side project",
   },
-];
+]
 
-    {/* <Link to="/page-2/">Go to page 2</Link> */}
+{
+  /* <Link to="/page-2/">Go to page 2</Link> */
+}
 
 const Experience = ({ siteTitle }) => (
   <ExperienceWrapper>
@@ -66,4 +66,4 @@ const Experience = ({ siteTitle }) => (
   </ExperienceWrapper>
 )
 
-export default Experience;
+export default Experience
