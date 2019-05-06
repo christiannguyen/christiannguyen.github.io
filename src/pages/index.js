@@ -3,13 +3,13 @@ import { Link } from "gatsby"
 import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
-import Header from "../components/header";
-import Skills from "../components/skills";
-import Experience from "../components/experience";
-import styled from "styled-components";
+import Header from "../components/header"
+import Skills from "../components/skills"
+import Experience from "../components/experience"
+import styled from "styled-components"
+import "../../prism.css"
 
-const RandomArticlesLink = styled.h2`
-`
+const RandomArticlesLink = styled.h2``
 
 const IndexPage = () => {
   return (
@@ -18,7 +18,9 @@ const IndexPage = () => {
       <Header />
       <Skills />
       <Experience />
-      <RandomArticlesLink><Link to="random-articles">List of Random Articles</Link></RandomArticlesLink>
+      <RandomArticlesLink>
+        <Link to="random-articles">List of Random Articles</Link>
+      </RandomArticlesLink>
     </Layout>
   )
 }

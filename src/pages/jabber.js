@@ -4,6 +4,11 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import ExperienceLayout from "../components/experienceLayout"
 import styled from "styled-components"
+import JabberImg from "../images/jabber.png"
+
+const Img = styled.img`
+  max-width: 600px;
+`
 
 const Lozenges = styled.span`
   padding: 3px 8px;
@@ -41,6 +46,7 @@ const JabberPage = () => (
       and parsed/organized in the backend. The data is then passed frontend to
       be displayed.
     </p>
+    <Img src={JabberImg} />
   </ExperienceLayout>
 )
 
