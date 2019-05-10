@@ -6,6 +6,7 @@ import SEO from "../components/seo"
 import Header from "../components/header"
 import Skills from "../components/skills"
 import Experience from "../components/experience"
+import Thoughts from "../components/thoughts"
 import styled from "styled-components"
 import "../../prism.css"
 
@@ -18,6 +19,7 @@ const IndexPage = () => {
       <Header />
       <Skills />
       <Experience />
+      {/* <Thoughts /> */}
       <RandomArticlesLink>
         <Link to="random-articles">List of Random Articles</Link>
       </RandomArticlesLink>
