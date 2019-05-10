@@ -23,7 +23,7 @@ const Header = () => (
   <HeaderWrapper>
     <HeaderTitle>HEY, I'M CHRISTIAN</HeaderTitle>
     <HeaderDescription>
-      I'm currently a full stack software engineer at{" "}
+      I'm currently a full stack software engineer at
       <strong>Marketo, an Adobe Company</strong> and residing in San Francisco.
       I mainly enjoy writing code in the frontend (JavaScript & React) but also
       knowledgeable in the backend (Ruby on Rails & ExpressJS). I love learning
